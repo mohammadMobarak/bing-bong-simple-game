@@ -104,7 +104,7 @@ while True:
         counter2 += 1
         if counter2 > 3:
             counter2 = 0
-        left_stick.color(arr[counter])
+        left_stick.color(arr[counter2])
     if ball.xcor() > 340 and (ball.ycor() < right_stick.ycor() + 40 and ball.ycor() > right_stick.ycor() -40):
         ball.setx(340)
         ball.dx *= -1
